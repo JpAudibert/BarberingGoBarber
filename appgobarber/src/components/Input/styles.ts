@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import FeatherIcon from 'react-native-vector-icons/Feather';
 
 const Container = styled.View`
   width: 100%;
@@ -7,6 +8,9 @@ const Container = styled.View`
   background: #232129;
   border-radius: 10px;
   margin-bottom: 8px;
+
+  flex-direction: row;
+  align-items: center;
 `;
 
 const TextInput = styled.TextInput`
@@ -16,4 +20,8 @@ const TextInput = styled.TextInput`
   font-family: 'RobotoSlab-Regular';
 `;
 
-export { Container, TextInput };
+const Icon = styled(FeatherIcon)`
+  margin-right: 16px;
+`;
+
+export { Container, TextInput, Icon };
