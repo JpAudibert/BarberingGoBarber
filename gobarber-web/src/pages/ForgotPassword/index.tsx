@@ -18,7 +18,6 @@ import api from '../../services/api';
 
 interface ForgotPasswordFormData {
   email: string;
-  password: string;
 }
 
 const ForgotPassword: React.FC = () => {
@@ -48,7 +47,7 @@ const ForgotPassword: React.FC = () => {
 
         addToast({
           type: 'success',
-          title: 'Email de recuperacao enviado',
+          title: 'Email de recuperação enviado',
           description: 'Cheque sua caixa de entrada',
         });
       } catch (err) {
@@ -62,9 +61,9 @@ const ForgotPassword: React.FC = () => {
 
         addToast({
           type: 'error',
-          title: 'Error na recuperacao de senha',
+          title: 'Erro na recuperação de senha',
           description:
-            'Ocorreu um erro ao tentar fazer a recuperacao de senha, tente novamente.',
+            'Ocorreu um erro ao tentar fazer a recuperação de senha, tente novamente.',
         });
       } finally {
         setLoading(false);
