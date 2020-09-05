@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { shade, lighten } from 'polished';
+import { shade } from 'polished';
 
 const Container = styled.div``;
 
