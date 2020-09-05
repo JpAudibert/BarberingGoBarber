@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
+import { shade, lighten } from 'polished';
 
 const Container = styled.div``;
 
@@ -161,6 +161,7 @@ const Appointment = styled.div`
   span {
     display: flex;
     align-items: center;
+    width: 90px;
   }
 
   svg {
