@@ -38,7 +38,7 @@ const Header = styled.View`
 
 const BackButton = styled.TouchableOpacity``;
 
-const HeaderTile = styled.Text`
+const HeaderTitle = styled.Text`
   font-family: 'RobotoSlab-Medium';
   font-size: 20px;
   line-height: 28px;
@@ -168,7 +168,7 @@ export {
   Container,
   Header,
   BackButton,
-  HeaderTile,
+  HeaderTitle,
   UserAvatar,
   Content,
   ProvidersListContainer,

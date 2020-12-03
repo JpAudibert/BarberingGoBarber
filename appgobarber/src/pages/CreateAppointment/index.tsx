@@ -11,7 +11,7 @@ import {
   Container,
   Header,
   BackButton,
-  HeaderTile,
+  HeaderTitle,
   UserAvatar,
   Content,
   ProvidersListContainer,
@@ -163,7 +163,7 @@ const CreateAppointment: React.FC = () => {
           <Icon name="chevron-left" size={24} color="#999591" />
         </BackButton>
 
-        <HeaderTile>Agendamento</HeaderTile>
+        <HeaderTitle>Agendamento</HeaderTitle>
 
         <UserAvatar source={{ uri: user.avatar_url }} />
       </Header>
